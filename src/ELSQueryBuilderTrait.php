@@ -1,6 +1,6 @@
 <?php
 
-namespace ElasticSessions\Repositories\Support;
+namespace ELSQueryBuilderTrait\Repositories\Support;
 
 
 trait ELSQueryBuilderTrait

@@ -13,6 +13,10 @@
     {
       "name": "Roberto Della Fornace",
       "email": "lambis.net@gmail.com"
+    },
+    {
+      "name": "Andrea Sabbatini",
+      "email": "andrea.sabbatini.296@gmail.com"
     }
   ],
   "minimum-stability": "dev",
@@ -23,7 +27,7 @@
   },
   "autoload": {
     "psr-4": {
-      "ElasticSessions\\": "src/"
+      "ELSQueryBuilderTrait\\": "/"
     }
   }
 }

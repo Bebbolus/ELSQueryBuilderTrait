@@ -1,6 +1,6 @@
 <?php
 
-namespace ELSQueryBuilderTrait\Repositories\Support;
+namespace ELSQueryBuilderTrait;
 
 
 trait ELSQueryBuilderTrait

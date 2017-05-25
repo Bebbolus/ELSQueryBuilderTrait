@@ -32,6 +32,7 @@ trait ELSQueryBuilderTrait
         'id',
         'url',
         'application',
+        'edm_'
     ];
 
 

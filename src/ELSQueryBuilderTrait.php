@@ -139,7 +139,11 @@ trait ELSQueryBuilderTrait
 
             }
             //controlla che la chiave non sia una parola riservata (true = riservata) oppure il valore contenuto è booleano
-            elseif ($this->checkReservedKey($key) or ($value == 'true') or ($value == 'false')) {
+            elseif ($this->checkReservedKey($key)
+                    or ($value == 'true')
+                    or ($value == true)
+                    or ($value == false)
+                    or ($value == 'false')) {
                 $element['term'][$key .'.keyword'] = $value;
                 unset($conditions[$key]);
             }
